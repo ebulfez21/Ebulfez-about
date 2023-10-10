@@ -132,7 +132,7 @@ h2 {
   background-image: url(./icon/instagram.png);
 }
 .github {
-  background-image: url(./img/github.png);
+  background-image: url(./icon/github.png);
 }
 .cv-container {
   max-width: 900px;
@@ -158,6 +158,7 @@ h2 {
   padding: 5px 0 0 8px;
   border-radius: 10px;
 }
+
 @media screen and (max-width: 1230px) {
   .photo img {
     width: 600px;
