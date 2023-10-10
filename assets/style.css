@@ -76,6 +76,13 @@ nav ul {
 h1 {
   color: aliceblue;
 }
+h2 {
+  margin-top: 5px;
+  color: azure;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
 .about-text {
   width: 410px;
   height: auto;
@@ -182,6 +189,10 @@ h1 {
   }
 }
 @media screen and (max-width: 768px) {
+  h2 {
+    margin-top: 16px;
+  }
+
   .cv-photo img {
     width: 500px;
     height: 500px;
@@ -269,5 +280,8 @@ h1 {
   .about-text {
     width: 290px;
     color: rgb(255, 255, 255);
+  }
+  h2 {
+    font-size: 22px;
   }
 }
